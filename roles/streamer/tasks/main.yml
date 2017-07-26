@@ -1,0 +1,4 @@
+---
+
+- name: Write the configuration file for the server
+  local_action: template src="config.json.j2" dest="/Users/tstm/src/alex/{{ inventory_hostname }}.json"

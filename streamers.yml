@@ -1,0 +1,5 @@
+---
+- hosts: video
+  gather_facts: False
+  roles:
+    - streamer
